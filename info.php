@@ -13,7 +13,7 @@
         <div class="row">
           <div class="col-md-4">
             <div class="step">
-            <a href="https://www.instagram.com/explore/tags/ktta/?hl=id">
+            <a href="http://instagram.com/explore/tags/kttadhirayakta/">
               <span class="number">01</span>
               <h3>Instagram #KTTA</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p></a>
@@ -21,7 +21,7 @@
           </div>
           <div class="col-md-4">
             <div class="step">
-            <a href="https://www.youtube.com/c/ADHIRAYAKTA">
+            <a href="https://youtube.com/playlist?list=PL6Qpl3PysPYUHWjsTZShq-wUEHov9Z8MI">
               <span class="number">02</span>
               <h3>Youtube #KTTA</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p></a>
@@ -29,9 +29,17 @@
           </div>
           <div class="col-md-4">
             <div class="step">
-            <a href="https://www.youtube.com/c/ADHIRAYAKTA">
+            <a href="http://staner.id/KTTAdhirayakta">
               <span class="number">03</span>
               <h3>Enjoy the app</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p></a>
+            </div>
+          </div>
+          <div class="col-md-4 mt-3">
+            <div class="step">
+            <a href="http://staner.id/KTTAdhirayakta">
+              <span class="number">04</span>
+              <h3>Drive KTTA</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p></a>
             </div>
           </div>

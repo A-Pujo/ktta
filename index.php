@@ -114,24 +114,19 @@
 
         <div class="row counters">
 
-          <div class="col-lg-3 col-6 text-center">
+          <div class="col-lg-4 col-6 text-center">
             <span data-toggle="counter-up">0</span>
             <p>Adhirayakta yang Sudah Mengisi Data</p>
           </div>
 
-          <div class="col-lg-3 col-6 text-center">
+          <div class="col-lg-4 col-6 text-center">
             <span data-toggle="counter-up">1329</span>
             <p>Adhirayakta yang Belum Mengisi Data</p>
           </div>
           
-          <div class="col-lg-3 col-6 text-center">
+          <div class="col-lg-4 col-6 text-center">
             <span data-toggle="counter-up">1329</span>
             <p>Total Adhirayakta</p>
-          </div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">?</span>
-            <p>Tim KTTA</p>
           </div>
 
         </div>
@@ -146,46 +141,100 @@
      <div class="container">
          <div class="row justify-content-center text-center mb-5">
           <div class="col-md-5" data-aos="fade-up">
-            <h2 class="section-heading">Our Team</h2>
+            <h2 class="section-heading">PIC Matkul</h2>
           </div>
         </div>
          <div class="row people d-flex justify-content-center">
+            <!-- data diri PIC -->
+            <?php 
+            $daftar_pic = [
+              [
+                'nama' => 'Reyhan Fauzan Adzima',
+                'matkul' => 'Akuntansi Pemerintah',
+                'ig' => 'http://instagram.com/reyhnnfa',
+                'wa' => 'https://wa.me/6281567848757',
+              ],
+              [
+                'nama' => 'Rizki Noor Aini',
+                'matkul' => 'Akuntansi Keuangan',
+                'ig' => 'http://instagram.com/rzkina',
+                'wa' => 'https://wa.me/6285727333181',
+              ],
+              [
+                'nama' => 'Nisa Anggun Spica',
+                'matkul' => 'Perpajakan',
+                'ig' => 'http://instagram.com/nisaangunns',
+                'wa' => 'https://wa.me/681297862831',
+              ],
+              [
+                'nama' => 'Ni Putu Riska Valentini',
+                'matkul' => 'Akuntansi Keuangan',
+                'ig' => 'http://instagram.com/riskavalentini',
+                'wa' => 'https://wa.me/6285737760935',
+              ],
+              [
+                'nama' => 'Dewi Rizky Kusumonegoro',
+                'matkul' => 'Audit',
+                'ig' => 'http://instagram.com/dewirizkyk',
+                'wa' => 'https://wa.me/6289687559690',
+              ],
+              [
+                'nama' => 'Luluk Fatikhatun Nofika',
+                'matkul' => 'Perpajakan',
+                'ig' => 'http://instagram.com/fffiiikaaa',
+                'wa' => 'https://wa.me/6285706552502',
+              ],
+              [
+                'nama' => 'Jodi Baihaqi Gumelar',
+                'matkul' => 'Akuntansi Keuangan',
+                'ig' => 'http://instagram.com/jbgumelar',
+                'wa' => 'https://wa.me/6282123723805',
+              ],
+              [
+                'nama' => 'Steven Ferico',
+                'matkul' => 'Akuntansi Biaya',
+                'ig' => 'http://instagram.com/stevenferico',
+                'wa' => 'https://wa.me/6282261653775',
+              ],
+              [
+                'nama' => 'Syifa Alfia Rahmi',
+                'matkul' => 'Sistem Informasi Akuntansi',
+                'ig' => 'http://instagram.com/syifaalfia',
+                'wa' => 'https://wa.me/6288747219684',
+              ],
+              [
+                'nama' => 'Fajar Kurniawan',
+                'matkul' => 'Sistem Informasi Akuntansi',
+                'ig' => 'http://instagram.com/fajarfn_',
+                'wa' => 'https://wa.me/62895399887189',
+              ],
+              [
+                'nama' => '???',
+                'matkul' => 'Audit',
+                'ig' => '#',
+                'wa' => '#',
+              ],
+              [
+                'nama' => '???',
+                'matkul' => '???',
+                'ig' => '#',
+                'wa' => '#',
+              ],
+            ];
+            ?>
+
+            <!-- dipecah satu2 -->
+            <?php foreach($daftar_pic as $pic) : ?>
              <div class="col-md-4 col-lg-3 item">
                  <div class="box" style="background-image:url(https://i.imgur.com/HjKTNkG.jpg)">
                      <div class="cover">
-                         <h3 class="name">Tim Cook</h3>
-                         <p class="title">Android Developer</p>
-                         <div class="social"><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-whatsapp"></i></a></div>
+                         <h3 class="name"><?= $pic['nama'] ?></h3>
+                         <p class="title"><?= $pic['matkul'] ?></p>
+                         <div class="social"><a href="<?= $pic['ig'] ?>" target="_blank"><i class="fab fa-instagram"></i></a><a href="<?= $pic['wa'] ?>" target="_blank"><i class="fab fa-whatsapp"></i></a></div>
                      </div>
                  </div>
              </div>
-            <div class="col-md-4 col-lg-3 item">
-                 <div class="box" style="background-image:url(https://i.imgur.com/HjKTNkG.jpg)">
-                     <div class="cover">
-                         <h3 class="name">Tim Cook</h3>
-                         <p class="title">Android Developer</p>
-                         <div class="social"><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-whatsapp"></i></a></div>
-                     </div>
-                 </div>
-             </div>
-             <div class="col-md-4 col-lg-3 item">
-                 <div class="box" style="background-image:url(https://i.imgur.com/HjKTNkG.jpg)">
-                     <div class="cover">
-                         <h3 class="name">Tim Cook</h3>
-                         <p class="title">Android Developer</p>
-                         <div class="social"><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-whatsapp"></i></a></div>
-                     </div>
-                 </div>
-             </div>
-             <div class="col-md-4 col-lg-3 item">
-                 <div class="box" style="background-image:url(https://i.imgur.com/HjKTNkG.jpg)">
-                     <div class="cover">
-                         <h3 class="name">Tim Cook</h3>
-                         <p class="title">Android Developer</p>
-                         <div class="social"><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-whatsapp"></i></a></div>
-                     </div>
-                 </div>
-             </div>
+             <?php endforeach; ?>
          </div>
      </div>
  </div>
