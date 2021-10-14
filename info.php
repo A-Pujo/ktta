@@ -35,7 +35,10 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p></a>
             </div>
           </div>
-          <div class="col-md-4 mt-3">
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 mt-3 mx-auto">
             <div class="step">
             <a href="http://staner.id/KTTAdhirayakta">
               <span class="number">04</span>

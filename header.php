@@ -8,6 +8,9 @@
   <title>KTTA Adhirayakta</title>
   <meta content="" name="description">
 
+  <!-- logo -->
+  <link rel="icon" href="assets/img/logo.ico">
+
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -50,7 +53,7 @@
           <li><a href="info">Info KTTA</a></li>
           <li class="dropdown"><a href="#"><span>Pendataan</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Pendataan 1</a></li>
+              <li><a href="https://adhirayakta.com/survei-peminatan">Pendataan 1</a></li>
               <!--<li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
                   <li><a href="#">Deep Drop Down 1</a></li>
@@ -66,7 +69,7 @@
             </ul>
           </li>
           <li><a href="deadline">Deadline</a></li>
-          <li><a href="#">Bebas Akses</a></li>
+          <li><a href="bebas-akses">Bebas Akses</a></li>
           <li><a href="riset">Surat Riset</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
