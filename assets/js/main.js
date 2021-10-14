@@ -158,6 +158,9 @@
     };
   });
 
+  // select2
+  $('.form-select').select2();
+
   // data table
   $('#tabel-data').DataTable({
     dom: 'Bfrtip',

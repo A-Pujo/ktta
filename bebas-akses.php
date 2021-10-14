@@ -14,12 +14,20 @@
             <input type="email" class="form-control" name="email" autocomplete="off" required>
           </div>
           <div class="mb-3">
-            <label class="form-label">Number</label>
+            <label class="form-label">NPM</label>
             <input type="number" class="form-control" name="npm" autocomplete="off" required>
           </div>
           <div class="mb-3">
             <label class="form-label">Nama Lengkap</label>
             <input type="text" class="form-control" name="nama_lengkap" autocomplete="off" required>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Pilihan</label>
+            <select class="form-select" name="kelas" required>
+              <?php for($i=1;$i<=46;$i++): ?>
+              <option value="5-<?= $i ?>">5-<?= $i ?></option>
+              <?php endfor; ?>
+            </select>
           </div>
           <div class="mb-3">
             <label class="form-label">Pilihan</label>

@@ -24,6 +24,7 @@
               <th>Email</th>
               <th>NPM</th>
               <th>Nama</th>
+              <th>Kelas</th>
               <th>Pilihan</th>
               <th>Waktu Pengajuan</th>
             </thead>
@@ -34,6 +35,7 @@
                 <td><?= $baris['email'] ?></td>
                 <td><?= $baris['npm'] ?></td>
                 <td><?= $baris['nama_lengkap'] ?></td>
+                <td><?= $baris['kelas'] ?></td>
                 <td><?= $baris['pilihan_akses'] ?></td>
                 <td><?= $baris['waktu_pengajuan'] ?></td>
               </tr>
