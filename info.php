@@ -16,7 +16,7 @@
             <a href="http://instagram.com/explore/tags/kttadhirayakta/">
               <span class="number">01</span>
               <h3>Instagram #KTTA</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p></a>
+            </a>
             </div>
           </div>
           <div class="col-md-4">
@@ -24,15 +24,15 @@
             <a href="https://youtube.com/playlist?list=PL6Qpl3PysPYUHWjsTZShq-wUEHov9Z8MI">
               <span class="number">02</span>
               <h3>Youtube #KTTA</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p></a>
+            </a>
             </div>
           </div>
           <div class="col-md-4">
             <div class="step">
             <a href="http://staner.id/KTTAdhirayakta">
               <span class="number">03</span>
-              <h3>Enjoy the app</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p></a>
+              <h3>Tiramisu Center</h3>
+            </a>
             </div>
           </div>
         </div>
@@ -43,7 +43,7 @@
             <a href="http://staner.id/KTTAdhirayakta">
               <span class="number">04</span>
               <h3>Drive KTTA</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p></a>
+            </a>
             </div>
           </div>
         </div>
