@@ -121,4 +121,50 @@
     })
   });
 
+  // validasi formulir BA
+  $.validator.addMethod("email_pknstan", 
+    function(value, element) {
+        return /^([A-Za-z0-9_\-\.])+\@pknstan.ac.id$/.test(value);
+    }, 
+    "Maaf, email yang digunakan harus email dengan domain pknstan.ac.id."
+  );
+  $('#form-ba').validate({
+    rules:{
+      email:{
+        required: true,
+        email_pknstan: true,
+      }
+    },
+    submitHandler: function(form) {
+      $.ajax({
+        url: 'https://localhost/ktta/submit-data-BA',
+        type: 'post',
+        data: $('#form-ba').serialize(),
+        success: function(){
+          Swal.fire('Pengajuanmu berhasil dicatat sob.');
+        },
+        error: function(){
+          Swal.fire('Ups, sepertinya ada masalah!');
+        }
+      });
+    }
+  })
+  
+  $('#sk').removeAttr('checked');
+  $('#terima-sk').click(function(){
+    $('#sk').attr('checked', true);
+    if($('#sk').attr('checked')){
+      $('#sk-button').removeAttr('disabled');
+    };
+  });
+
+  // data table
+  $('#tabel-data').DataTable({
+    dom: 'Bfrtip',
+    order: [[5, 'desc']],
+    buttons: [
+        'csv', 'excel', 'pdf',
+    ]
+  });
+
 })()
