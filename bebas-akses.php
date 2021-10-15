@@ -32,9 +32,9 @@
           <div class="mb-3">
             <label class="form-label">Pilihan</label>
             <select class="form-select" name="pilihan_akses" required>
-              <option value="scribd" selected>Scribd</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
+              <option value="academia" selected>Academia</option>
+              <option value="coursehero">Coursehero</option>
+              <option value="scribd">Scribd</option>
             </select>
           </div>
           <div class="form-check mb-3" data-bs-toggle="modal" data-bs-target="#sk-bebas">

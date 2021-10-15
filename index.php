@@ -79,72 +79,84 @@
                 'matkul' => 'Akuntansi Pemerintah',
                 'ig' => 'http://instagram.com/reyhnnfa',
                 'wa' => 'https://wa.me/6281567848757',
+                'gambar' => './assets/img/pic/REYHAN-FAUZAN-ADZIMA-03.png'
               ],
               [
                 'nama' => 'Rizki Noor Aini',
                 'matkul' => 'Akuntansi Keuangan',
                 'ig' => 'http://instagram.com/rzkina',
                 'wa' => 'https://wa.me/6285727333181',
+                'gambar' => './assets/img/pic/RIZKI-NOOR-AINI-04.png'
               ],
               [
                 'nama' => 'Nisa Anggun Spica',
                 'matkul' => 'Perpajakan',
                 'ig' => 'http://instagram.com/nisaangunns',
                 'wa' => 'https://wa.me/681297862831',
+                'gambar' => './assets/img/pic/NISA-ANGGUN-SPICA-02.png',
               ],
               [
                 'nama' => 'Ni Putu Riska Valentini',
                 'matkul' => 'Akuntansi Keuangan',
                 'ig' => 'http://instagram.com/riskavalentini',
                 'wa' => 'https://wa.me/6285737760935',
+                'gambar' => './assets/img/pic/NI-PUTU-RISKA-VALENTINI-09.png',
               ],
               [
                 'nama' => 'Dewi Rizky Kusumonegoro',
                 'matkul' => 'Audit',
                 'ig' => 'http://instagram.com/dewirizkyk',
                 'wa' => 'https://wa.me/6289687559690',
+                'gambar' => './assets/img/pic/DEWI-RIZKY-KUSUMONEGORO-05.png',
               ],
               [
                 'nama' => 'Luluk Fatikhatun Nofika',
                 'matkul' => 'Perpajakan',
                 'ig' => 'http://instagram.com/fffiiikaaa',
                 'wa' => 'https://wa.me/6285706552502',
+                'gambar' => './assets/img/pic/LULUK-FATIKHATUN-NOFIKA-06.png',
               ],
               [
                 'nama' => 'Jodi Baihaqi Gumelar',
                 'matkul' => 'Akuntansi Keuangan',
                 'ig' => 'http://instagram.com/jbgumelar',
                 'wa' => 'https://wa.me/6282123723805',
+                'gambar' => './assets/img/pic/JODI-BAIHAQI-GUMELAR-07.png',
               ],
               [
                 'nama' => 'Steven Ferico',
                 'matkul' => 'Akuntansi Biaya',
                 'ig' => 'http://instagram.com/stevenferico',
                 'wa' => 'https://wa.me/6282261653775',
+                'gambar' => './assets/img/pic/STEVEN-FERICO-10.png',
               ],
               [
                 'nama' => 'Syifa Alfia Rahmi',
                 'matkul' => 'Sistem Informasi Akuntansi',
                 'ig' => 'http://instagram.com/syifaalfia',
                 'wa' => 'https://wa.me/6288747219684',
+                'gambar' => './assets/img/pic/SYIFA-ALFIA-RAHMI-01.png',
               ],
               [
                 'nama' => 'Fajar Kurniawan',
                 'matkul' => 'Sistem Informasi Akuntansi',
                 'ig' => 'http://instagram.com/fajarfn_',
                 'wa' => 'https://wa.me/62895399887189',
+                'gambar' => './assets/img/pic/FAJAR-KURNIAWAN-08.png',
               ],
               [
                 'nama' => '???',
                 'matkul' => 'Audit',
                 'ig' => '#',
                 'wa' => '#',
+                'gambar' => 'https://i.imgur.com/HjKTNkG.jpg',
               ],
               [
                 'nama' => '???',
                 'matkul' => '???',
                 'ig' => '#',
                 'wa' => '#',
+                'gambar' => 'https://i.imgur.com/HjKTNkG.jpg',
               ],
             ];
             ?>
@@ -152,7 +164,7 @@
             <!-- dipecah satu2 -->
             <?php foreach($daftar_pic as $pic) : ?>
              <div class="col-md-4 col-lg-3 item">
-                 <div class="box" style="background-image:url(https://i.imgur.com/HjKTNkG.jpg)">
+                 <div class="box" style="background-image:url(<?= $pic['gambar'] ?>)">
                      <div class="cover">
                          <h3 class="name"><?= $pic['nama'] ?></h3>
                          <p class="title"><?= $pic['matkul'] ?></p>
