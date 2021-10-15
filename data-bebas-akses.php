@@ -1,7 +1,7 @@
 <?php
   include'header.php';
   // Create connection
-  $conn = new mysqli('localhost', 'root', '', 'ktta_adhi');
+  $conn = new mysqli('127.0.0.1', 'u3797824_admin', 'LkFEN6xyNAqjUJa', 'u3797824_ktta');
   // Check connection
   if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
