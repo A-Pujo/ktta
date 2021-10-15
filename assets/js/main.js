@@ -137,7 +137,7 @@
     },
     submitHandler: function(form) {
       $.ajax({
-        url: 'https://localhost/ktta/submit-data-BA',
+        url: 'http://ktta.adhirayakta.com/submit-data-BA',
         type: 'post',
         data: $('#form-ba').serialize(),
         success: function(){
