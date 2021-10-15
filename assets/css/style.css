@@ -886,7 +886,7 @@ background: linear-gradient(to right, rgba(39, 70, 133, 0.8) 0%, rgba(61, 179, 1
 # Hero Section
 --------------------------------------------------------------*/
 .hero-section {
-  background: linear-gradient(to right, rgba(39, 70, 133, 0.8) 0%, rgba(61, 179, 197, 0.8) 100%), url(../img/Homepage.png);
+  background: linear-gradient(to right, rgba(39, 70, 133, 0.8) 0%, rgba(61, 179, 197, 0.8) 100%), url(../img/homepage-min.png);
   background-size: cover;
   position: relative;
 }
