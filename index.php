@@ -146,17 +146,17 @@
               ],
               [
                 'nama' => '???',
-                'matkul' => 'Audit',
+                'matkul' => 'Pengelolaan Keuangan Negara',
                 'ig' => '#',
                 'wa' => '#',
-                'gambar' => 'https://i.imgur.com/HjKTNkG.jpg',
+                'gambar' => './assets/img/pic/blank-pic.jpeg',
               ],
               [
                 'nama' => '???',
-                'matkul' => '???',
+                'matkul' => 'Audit',
                 'ig' => '#',
                 'wa' => '#',
-                'gambar' => 'https://i.imgur.com/HjKTNkG.jpg',
+                'gambar' => './assets/img/pic/blank-pic.jpeg',
               ],
             ];
             ?>
