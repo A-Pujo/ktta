@@ -145,18 +145,18 @@
                 'gambar' => './assets/img/pic/FAJAR-KURNIAWAN-08.jpg',
               ],
               [
-                'nama' => '???',
+                'nama' => 'Apreli Hijriyahni',
                 'matkul' => 'Pengelolaan Keuangan Negara',
-                'ig' => '#',
-                'wa' => '#',
-                'gambar' => './assets/img/pic/blank-pic.jpeg',
+                'ig' => 'http://instagram.com/prellihyn',
+                'wa' => 'https://wa.me/6285380087148',
+                'gambar' => './assets/img/pic/ELI-11.jpg',
               ],
               [
-                'nama' => '???',
+                'nama' => 'David Marchelino',
                 'matkul' => 'Audit',
-                'ig' => '#',
-                'wa' => '#',
-                'gambar' => './assets/img/pic/blank-pic.jpeg',
+                'ig' => 'http://instagram.com/davidmarchelino',
+                'wa' => 'https://wa.me/6281510552574',
+                'gambar' => './assets/img/pic/DAVIDD-12.jpg',
               ],
             ];
             ?>
