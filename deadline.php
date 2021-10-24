@@ -108,8 +108,8 @@
     # kondisi waktu sekarang dan ambil kegiatan
     # kegiatan dummy
     $kegiatan = [
-        'waktu_mulai' => date('D M d Y H:i:s O', strtotime('2021-10-24 00:00:00')),
-        'waktu_selesai' => date('D M d Y H:i:s O', strtotime('2021-10-25 17:57:49')),
+        'waktu_mulai' => date('D M d Y H:i:s O', strtotime('2001-10-24 00:00:00')),
+        'waktu_selesai' => date('D M d Y H:i:s O', strtotime('2001-10-25 17:57:49')),
         'capaian' => [
             'Tidak ada:::100',
         ],
