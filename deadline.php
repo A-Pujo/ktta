@@ -118,7 +118,7 @@
     # ambil kegiatan asli
     foreach($jadwal_kegiatan as $index => $k){
         if(date('Y-m-d H:i:s') >= $k['mulai'] and date('Y-m-d H:i:s') <= $k['selesai']){
-            $k = $jadwal_kegiatan[$index];
+            $kegiatan = $jadwal_kegiatan[$index];
             # keluar dari loop
             break;
         }
