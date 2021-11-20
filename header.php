@@ -73,7 +73,7 @@
           </li>
           <li><a href="deadline">Deadline</a></li>
           <li><a href="bebas-akses">Bebas Akses</a></li>
-          <li><a href="riset">Surat Riset</a></li>
+          <!-- <li><a href="riset">Surat Riset</a></li> -->
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->

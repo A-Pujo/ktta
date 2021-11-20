@@ -164,7 +164,7 @@
   // data table
   $('#tabel-data').DataTable({
     dom: 'Bfrtip',
-    order: [[5, 'desc']],
+    order: [[6, 'desc']],
     buttons: [
         'csv', 'excel', 'pdf',
     ]

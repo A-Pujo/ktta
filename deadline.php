@@ -39,8 +39,8 @@
             'mulai' => '2021-11-08 00:00:00',
             'selesai' => '2021-11-28 23:59:59',
             'capaian' => [
-                'Latar Belakang:::85',
-                'Rumusan Masalah:::60'
+                'Latar Belakang:::55',
+                'Rumusan Masalah:::55'
             ],
         ],
         [
@@ -52,7 +52,6 @@
                 'Latar Belakang:::100',
                 'Rumusan Masalah:::100',
                 'Tujuan:::100',
-                'Bimbingan Ke-2:::100',
             ],
         ],
         [
@@ -62,7 +61,8 @@
             'selesai' => '2021-12-12 23:59:59',
             'capaian' => [
                 'Ruang Lingkup Penulisan:::80',
-                'Manfaat Penulisan:::80'
+                'Manfaat Penulisan:::80',
+                'Bimbingan Ke-2:::100',
             ],
         ],
         [
@@ -82,7 +82,7 @@
             'selesai' => '2021-12-26 23:59:59',
             'capaian' => [
                 'Daftar Pustaka:::80',
-                'jadwal Pelaksanaan Kegiatan:::80',
+                'Jadwal Pelaksanaan Kegiatan:::80',
                 'Kontingensi:::80',
                 'Lampiran:::80'
             ],
@@ -149,6 +149,24 @@
     <div class="container">
         <div class="row text-center mb-5 py-2" data-aos="fade">
             <div class="col-md-6 mb-3 justify-content-center align-self-center">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <div class="step">
+                            <a href="https://docs.google.com/document/u/3/d/1qZ73gmzNv7QRDfLHjIDUPyHRUoKT2dpS/edit?usp=drive_web&ouid=113042091745588955247&rtpof=true" target="_blank">
+                            <span class="number">01</span>
+                            <h5>RPS Proposal KTTA</h5>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="step">
+                            <a href="https://docs.google.com/spreadsheets/d/1jipvV3OdBEWSm4ysdHu780taNVVE3g1S/edit#gid=1631652774" target="_blank">
+                            <span class="number">02</span>
+                            <h5>Lembar Kontrol</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
                 <div class="rounded bg-glass text-white shadow p-5 text-center mb-5">
                     <p class="mb-0 font-weight-bold text-uppercase">Halo!</p>
                     <div id="clock-c" class="countdown py-4">
@@ -183,7 +201,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.2.0/jquery.countdown.min.js"></script>
 <script>
     // gradient dl
-    $('#section-bg').css('background', 'linear-gradient(to right, rgba(231,62,33,1) 0%, rgba(231,186,33,1) 0%, rgba(85,194,72,1) 100%)');
+    // $('#section-bg').css('background', 'linear-gradient(to right, rgba(231,62,33,0.5) 0%, rgba(231,186,33,0.5) 0%, rgba(85,194,72,0.5) 100%)');
+    // $('#section-bg').css('background-image', 'url("assets/img/InfoKTTA-GREEN-min.jpg")');
 
     // konversi dari tanggal ke nilai
     var val_mulai = new Date('<?= $kegiatan['waktu_mulai'] ?>').valueOf()
@@ -203,12 +222,18 @@
 
         // set gradient
         if(persentase < 34){
-            $('#section-bg').css('background', 'linear-gradient(to right, rgba(231,186,33,1) '+ persentase*3 +'%, rgba(85,194,72,1) ' + (100 + persentase*3) + '%)');
+            // code buat warna linear otomatis
+            // $('#section-bg').css('background', 'linear-gradient(to right, rgba(231,186,33,1) '+ persentase*3 +'%, rgba(85,194,72,1) ' + (100 + persentase*3) + '%)');
+            $('#section-bg').css('background', 'url("assets/img/InfoKTTA-GREEN-min.jpg")');
+            $('#section-bg').css('backgroundSize', 'cover');
         } else if(persentase < 67) {
-            $('#section-bg').css('background', 'linear-gradient(to right, rgba(231,62,33,1) 0%, rgba(231,186,33,1) '+ (persentase-34)*3 +'%)');
+            // $('#section-bg').css('background', 'linear-gradient(to right, rgba(231,62,33,1) 0%, rgba(231,186,33,1) '+ (persentase-34)*3 +'%)');
+            $('#section-bg').css('background', 'url("assets/img/InfoKTTA-YELLOW-min.jpg")');
+            $('#section-bg').css('backgroundSize', 'cover');
         } else {
-            $('#section-bg').css('background', 'linear-gradient(to right, rgba(231,62,33,1) '+ (persentase-67)*3 +'%, rgba(231,186,33,1) '+ (100 + (persentase-67)*3) +'%)');
-
+            // $('#section-bg').css('background', 'linear-gradient(to right, rgba(231,62,33,1) '+ (persentase-67)*3 +'%, rgba(231,186,33,1) '+ (100 + (persentase-67)*3) +'%)');
+            $('#section-bg').css('background', 'url("assets/img/InfoKTTA-RED-min.jpg")');
+            $('#section-bg').css('backgroundSize', 'cover');
         }
 
         // set text waktu
