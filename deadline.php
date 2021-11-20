@@ -153,7 +153,6 @@
                     <div class="col-md-6 mb-3">
                         <div class="step step-grad">
                             <a href="https://docs.google.com/document/u/3/d/1qZ73gmzNv7QRDfLHjIDUPyHRUoKT2dpS/edit?usp=drive_web&ouid=113042091745588955247&rtpof=true" target="_blank">
-                            <span class="number">01</span>
                             <h5>RPS Proposal KTTA</h5>
                             </a>
                         </div>
@@ -161,7 +160,6 @@
                     <div class="col-md-6 mb-3">
                         <div class="step step-grad">
                             <a href="https://docs.google.com/spreadsheets/d/1jipvV3OdBEWSm4ysdHu780taNVVE3g1S/edit#gid=1631652774" target="_blank">
-                            <span class="number">02</span>
                             <h5>Lembar Kontrol</h5>
                             </a>
                         </div>
