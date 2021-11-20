@@ -151,7 +151,7 @@
             <div class="col-md-6 mb-3 justify-content-center align-self-center">
                 <div class="row">
                     <div class="col-md-6 mb-3">
-                        <div class="step">
+                        <div class="step step-grad">
                             <a href="https://docs.google.com/document/u/3/d/1qZ73gmzNv7QRDfLHjIDUPyHRUoKT2dpS/edit?usp=drive_web&ouid=113042091745588955247&rtpof=true" target="_blank">
                             <span class="number">01</span>
                             <h5>RPS Proposal KTTA</h5>
@@ -159,7 +159,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 mb-3">
-                        <div class="step">
+                        <div class="step step-grad">
                             <a href="https://docs.google.com/spreadsheets/d/1jipvV3OdBEWSm4ysdHu780taNVVE3g1S/edit#gid=1631652774" target="_blank">
                             <span class="number">02</span>
                             <h5>Lembar Kontrol</h5>
@@ -223,15 +223,16 @@
         // set gradient
         if(persentase < 34){
             // code buat warna linear otomatis
-            // $('#section-bg').css('background', 'linear-gradient(to right, rgba(231,186,33,1) '+ persentase*3 +'%, rgba(85,194,72,1) ' + (100 + persentase*3) + '%)');
+            $('.step-grad').css('background', 'linear-gradient(to right, rgba(231,186,33,1) '+ persentase*3 +'%, rgba(85,194,72,1) ' + (100 + persentase*3) + '%)');
+            // buat ganti bgnya
             $('#section-bg').css('background', 'url("assets/img/InfoKTTA-GREEN-min.jpg")');
             $('#section-bg').css('backgroundSize', 'cover');
         } else if(persentase < 67) {
-            // $('#section-bg').css('background', 'linear-gradient(to right, rgba(231,62,33,1) 0%, rgba(231,186,33,1) '+ (persentase-34)*3 +'%)');
+            $('.step-grad').css('background', 'linear-gradient(to right, rgba(231,62,33,1) 0%, rgba(231,186,33,1) '+ (persentase-34)*3 +'%)');
             $('#section-bg').css('background', 'url("assets/img/InfoKTTA-YELLOW-min.jpg")');
             $('#section-bg').css('backgroundSize', 'cover');
         } else {
-            // $('#section-bg').css('background', 'linear-gradient(to right, rgba(231,62,33,1) '+ (persentase-67)*3 +'%, rgba(231,186,33,1) '+ (100 + (persentase-67)*3) +'%)');
+            $('.step-grad').css('background', 'linear-gradient(to right, rgba(231,62,33,1) '+ (persentase-67)*3 +'%, rgba(231,186,33,1) '+ (100 + (persentase-67)*3) +'%)');
             $('#section-bg').css('background', 'url("assets/img/InfoKTTA-RED-min.jpg")');
             $('#section-bg').css('backgroundSize', 'cover');
         }
