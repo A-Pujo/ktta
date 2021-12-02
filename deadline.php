@@ -227,7 +227,7 @@
             $('#section-bg').css('backgroundSize', 'cover');
         } else if(persentase < 67) {
             $('.step-grad').css('background', 'linear-gradient(to right, rgba(231,62,33,1) 0%, rgba(231,186,33,1) '+ (persentase-34)*3 +'%)');
-            $('#section-bg').css('background', 'url("assets/img/InfoKTTA-YELLOW-min.jpg")');
+            $('#section-bg').css('background', 'url("assets/img/InfoKTTA-YELLOW-fix-min.png")');
             $('#section-bg').css('backgroundSize', 'cover');
         } else {
             $('.step-grad').css('background', 'linear-gradient(to right, rgba(231,62,33,1) '+ (persentase-67)*3 +'%, rgba(231,186,33,1) '+ (100 + (persentase-67)*3) +'%)');
