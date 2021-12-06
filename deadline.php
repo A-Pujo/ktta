@@ -187,7 +187,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <img src="assets/img/undraw_svg_1.svg" alt="Image" class="img-fluid">
+                <img src="assets/img/maskot-02.png" alt="Image" class="img-fluid">
             </div>
         </div>
     </div>
