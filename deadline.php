@@ -152,14 +152,14 @@
                 <div class="row">
                     <div class="col-md-6 mb-3">
                         <div class="step step-grad">
-                            <a href="https://docs.google.com/document/u/3/d/1qZ73gmzNv7QRDfLHjIDUPyHRUoKT2dpS/edit?usp=drive_web&ouid=113042091745588955247&rtpof=true" target="_blank">
+                            <a href="https://docs.google.com/document/d/1ENh7FKoMadBsaY4bgNs5_3l24jlt6KvY/edit?rtpof=true" target="_blank">
                             <h5>RPS Proposal KTTA</h5>
                             </a>
                         </div>
                     </div>
                     <div class="col-md-6 mb-3">
                         <div class="step step-grad">
-                            <a href="https://docs.google.com/spreadsheets/d/1jipvV3OdBEWSm4ysdHu780taNVVE3g1S/edit#gid=1631652774" target="_blank">
+                            <a href="https://drive.google.com/drive/u/3/folders/1hRTkCn95WQjYm-uOWoFvPriiAfbH4nhJ" target="_blank">
                             <h5>Lembar Kontrol</h5>
                             </a>
                         </div>
